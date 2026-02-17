@@ -1,0 +1,76 @@
+:root {
+  font-family: Inter, system-ui, sans-serif;
+  color: #e7ecf3;
+  background: #0f172a;
+}
+
+body {
+  margin: 0;
+}
+
+.panel {
+  display: grid;
+  grid-template-rows: auto auto 1fr auto auto;
+  min-height: 100vh;
+  padding: 12px;
+  gap: 12px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+header p {
+  margin: 4px 0 0;
+  color: #93c5fd;
+}
+
+.controls,
+.messages,
+.context,
+footer {
+  background: #111827;
+  border: 1px solid #1f2937;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.messages {
+  overflow: auto;
+  max-height: 40vh;
+}
+
+.message {
+  border-bottom: 1px solid #1f2937;
+  margin-bottom: 8px;
+}
+
+.message small {
+  color: #60a5fa;
+  display: block;
+  margin: 4px 0;
+}
+
+textarea {
+  width: 100%;
+  min-height: 90px;
+  background: #030712;
+  color: #fff;
+  border: 1px solid #374151;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+button {
+  width: 100%;
+  border: 0;
+  border-radius: 8px;
+  padding: 10px;
+  background: #2563eb;
+  color: #fff;
+}
+
+.empty {
+  color: #9ca3af;
+}

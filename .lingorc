@@ -1,0 +1,6 @@
+{
+  "project": "lingomate",
+  "sourceLocale": "en",
+  "targetLocales": ["hi", "es"],
+  "paths": ["extension/src/**/*.tsx"]
+}
