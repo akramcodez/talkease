@@ -1,0 +1,12 @@
+{
+  "name": "lingomate",
+  "private": true,
+  "version": "0.2.0",
+  "scripts": {
+    "dev:backend": "cd backend && npm run dev",
+    "dev:extension": "cd extension && npm run dev",
+    "build:backend": "cd backend && npm run build",
+    "build:extension": "cd extension && npm run build",
+    "test:smoke": "cd backend && npm run test:smoke"
+  }
+}
