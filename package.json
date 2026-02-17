@@ -7,6 +7,7 @@
     "dev:extension": "cd extension && npm run dev",
     "build:backend": "cd backend && npm run build",
     "build:extension": "cd extension && npm run build",
-    "test:smoke": "cd backend && npm run test:smoke"
+    "test:smoke": "cd backend && npm run test:smoke",
+    "check:conflicts": "node scripts/check-conflicts.mjs"
   }
 }

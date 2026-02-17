@@ -53,6 +53,13 @@ From repo root:
 npm run test:smoke
 ```
 
+
+Run merge-conflict safety check before pushing:
+
+```bash
+npm run check:conflicts
+```
+
 This checks:
 
 - `GET /health` returns `ok`
